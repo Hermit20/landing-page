@@ -30,6 +30,7 @@ button{
     border-width: 0px;
     font-size: medium;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .header .content .text p , a{
@@ -146,4 +147,35 @@ button{
 .quote #speaker{
     text-align: right;
     font-weight: bold;
+}
+
+/* Sign CSS*/
+
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign .content{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.sign .content .text{
+    color: white;
+}
+
+.sign .content .text h4, .sign .content .text p{
+    margin: 0;
+}
+
+.sign .content button{
+    border: white 2px solid;
 }
