@@ -116,6 +116,7 @@ button{
     height: 100px;
     width: 100px;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 /* Quote CSS */
