@@ -179,3 +179,14 @@ button{
 .sign .content button{
     border: white 2px solid;
 }
+
+/* Footer CSS */
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    color: white ;
+}
